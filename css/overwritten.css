@@ -1,0 +1,25 @@
+/* Gallery Overwritten  Styles */
+.full-image {
+  background-color: #fafbff;
+}
+#close-button,
+#previous-button,
+#next-button {
+  background-color: transparent;
+}
+/* changes colors of the overlay buttons */
+#close-button svg g,
+#previous-button svg polyline,
+#next-button svg polyline {
+  stroke: rgba(0, 0, 0, 0.85) !important;
+  stroke-width: 1px;
+}
+/* Adds padding around the img */
+#baguetteBox-overlay .full-image {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* Resizes the img element */
+#baguetteBox-overlay .full-image img {
+  /* width: ; */
+}
